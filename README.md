@@ -10,12 +10,12 @@ Open-source AI engineer in Ho Chi Minh City, working on diffusion/video generati
 
 | Project | ✓ Merged PRs | Representative merged work |
 | --- | ---: | --- |
-| [huggingface/diffusers](https://github.com/huggingface/diffusers) | [22](https://github.com/huggingface/diffusers/pulls?q=is%3Apr+author%3Arootonchair+is%3Amerged) | [LTX2 distilled checkpoint support](https://github.com/huggingface/diffusers/pull/12934), [framewise LTX Video VAE encoding/decoding](https://github.com/huggingface/diffusers/pull/10488) |
-| [huggingface/transformers](https://github.com/huggingface/transformers) | [8](https://github.com/huggingface/transformers/pulls?q=is%3Apr+author%3Arootonchair+is%3Amerged) | [PoolFormer fast image processor](https://github.com/huggingface/transformers/pull/37182), [BridgeTower fast image processor](https://github.com/huggingface/transformers/pull/37373) |
-| [sgl-project/sglang](https://github.com/sgl-project/sglang) | [1](https://github.com/sgl-project/sglang/pulls?q=is%3Apr+author%3Arootonchair+is%3Amerged) | [Z-Image text encoder config fix](https://github.com/sgl-project/sglang/pull/18560) |
-| [d2l-ai/d2l-vi](https://github.com/d2l-ai/d2l-vi) | [108](https://github.com/d2l-ai/d2l-vi/pulls?q=is%3Apr+author%3Arootonchair+is%3Amerged) | Vietnamese ML education translation/revision |
-| [mlbvn/ml-yearning-vi](https://github.com/mlbvn/ml-yearning-vi) | [23](https://github.com/mlbvn/ml-yearning-vi/pulls?q=is%3Apr+author%3Arootonchair+is%3Amerged) | Vietnamese ML education translation/revision |
-| [d2l-ai/d2l-en](https://github.com/d2l-ai/d2l-en) | [7](https://github.com/d2l-ai/d2l-en/pulls?q=is%3Apr+author%3Arootonchair+is%3Amerged) | Documentation fixes |
+| [huggingface/diffusers](https://github.com/huggingface/diffusers)<br><sub>★ 33,746 / forks 7,011</sub> | [22](https://github.com/huggingface/diffusers/pulls?q=is%3Apr+author%3Arootonchair+is%3Amerged) | [LTX2 distilled checkpoint support](https://github.com/huggingface/diffusers/pull/12934), [framewise LTX Video VAE encoding/decoding](https://github.com/huggingface/diffusers/pull/10488) |
+| [huggingface/transformers](https://github.com/huggingface/transformers)<br><sub>★ 161,148 / forks 33,378</sub> | [8](https://github.com/huggingface/transformers/pulls?q=is%3Apr+author%3Arootonchair+is%3Amerged) | [PoolFormer fast image processor](https://github.com/huggingface/transformers/pull/37182), [BridgeTower fast image processor](https://github.com/huggingface/transformers/pull/37373) |
+| [sgl-project/sglang](https://github.com/sgl-project/sglang)<br><sub>★ 28,869 / forks 6,257</sub> | [1](https://github.com/sgl-project/sglang/pulls?q=is%3Apr+author%3Arootonchair+is%3Amerged) | [Z-Image text encoder config fix](https://github.com/sgl-project/sglang/pull/18560) |
+| [d2l-ai/d2l-vi](https://github.com/d2l-ai/d2l-vi)<br><sub>★ 659 / forks 255</sub> | [108](https://github.com/d2l-ai/d2l-vi/pulls?q=is%3Apr+author%3Arootonchair+is%3Amerged) | Vietnamese ML education translation/revision |
+| [mlbvn/ml-yearning-vi](https://github.com/mlbvn/ml-yearning-vi)<br><sub>★ 1,089 / forks 374</sub> | [23](https://github.com/mlbvn/ml-yearning-vi/pulls?q=is%3Apr+author%3Arootonchair+is%3Amerged) | Vietnamese ML education translation/revision |
+| [d2l-ai/d2l-en](https://github.com/d2l-ai/d2l-en)<br><sub>★ 28,941 / forks 5,069</sub> | [7](https://github.com/d2l-ai/d2l-en/pulls?q=is%3Apr+author%3Arootonchair+is%3Amerged) | Documentation fixes |
 
 Selected upstream work includes LTX2 distilled checkpoint support, LTX Video VAE framewise encoding/decoding, Diffusers pipeline/test improvements, a Z-Image fix in SGLang, and Vietnamese ML education work across Dive into Deep Learning and Machine Learning Yearning.
 
