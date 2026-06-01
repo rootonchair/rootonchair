@@ -1,16 +1,38 @@
-## Hi there 👋
+# Vinh H. Pham
 
-<!--
-**rootonchair/rootonchair** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Open-source AI engineer in Ho Chi Minh City, working on diffusion/video generation, LLM/VLM quantization, model serving, and practical ML infrastructure.
 
-Here are some ideas to get you started:
+[GitHub](https://github.com/rootonchair) | [Hugging Face](https://huggingface.co/rootonchair) | [Website](https://rootonchair.github.io/)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Open-source impact
+
+| Project | Merged PRs | Representative merged work |
+| --- | ---: | --- |
+| [huggingface/diffusers](https://github.com/huggingface/diffusers) | [22](https://github.com/huggingface/diffusers/pulls?q=is%3Apr+author%3Arootonchair+is%3Amerged) | [LTX2 distilled checkpoint support](https://github.com/huggingface/diffusers/pull/12934), [framewise LTX Video VAE encoding/decoding](https://github.com/huggingface/diffusers/pull/10488) |
+| [huggingface/transformers](https://github.com/huggingface/transformers) | [8](https://github.com/huggingface/transformers/pulls?q=is%3Apr+author%3Arootonchair+is%3Amerged) | [PoolFormer fast image processor](https://github.com/huggingface/transformers/pull/37182), [BridgeTower fast image processor](https://github.com/huggingface/transformers/pull/37373) |
+| [sgl-project/sglang](https://github.com/sgl-project/sglang) | [1](https://github.com/sgl-project/sglang/pulls?q=is%3Apr+author%3Arootonchair+is%3Amerged) | [Z-Image text encoder config fix](https://github.com/sgl-project/sglang/pull/18560) |
+| [d2l-ai/d2l-vi](https://github.com/d2l-ai/d2l-vi) | [108](https://github.com/d2l-ai/d2l-vi/pulls?q=is%3Apr+author%3Arootonchair+is%3Amerged) | [GPU server chapter revision](https://github.com/d2l-ai/d2l-vi/pull/3097), [calculus chapter revision](https://github.com/d2l-ai/d2l-vi/pull/3072) |
+| [mlbvn/ml-yearning-vi](https://github.com/mlbvn/ml-yearning-vi) | [23](https://github.com/mlbvn/ml-yearning-vi/pulls?q=is%3Apr+author%3Arootonchair+is%3Amerged) | [PDF build script](https://github.com/mlbvn/ml-yearning-vi/pull/472), [translated math-formula images](https://github.com/mlbvn/ml-yearning-vi/pull/463) |
+| [d2l-ai/d2l-en](https://github.com/d2l-ai/d2l-en) | [7](https://github.com/d2l-ai/d2l-en/pulls?q=is%3Apr+author%3Arootonchair+is%3Amerged) | [SeqRec doc update](https://github.com/d2l-ai/d2l-en/pull/1474), [parameter server doc fix](https://github.com/d2l-ai/d2l-en/pull/1265) |
+
+Selected upstream work includes LTX2 distilled checkpoint support, LTX Video VAE framewise encoding/decoding, Diffusers pipeline/test improvements, a Z-Image fix in SGLang, and Vietnamese ML education work across Dive into Deep Learning and Machine Learning Yearning.
+
+## Adopted work
+
+| Project | Integration evidence | Adopting project scale |
+| --- | --- | ---: |
+| [rootonchair/LTX-2-19b-distilled](https://huggingface.co/rootonchair/LTX-2-19b-distilled) | Listed in vLLM Omni's supported-model table for [`LTX2TwoStagesPipeline` and `LTX2ImageToVideoTwoStagesPipeline`](https://github.com/vllm-project/vllm-omni/blob/main/docs/models/supported_models.md#L40-L41) | [4,858 stars / 1,028 forks](https://github.com/vllm-project/vllm-omni) |
+| [rootonchair/diffuser_layerdiffuse](https://github.com/rootonchair/diffuser_layerdiffuse) | SD.Next includes a [`LayerDiffuse: Transparent Image` extension](https://github.com/vladmandic/sdnext/blob/master/scripts/layerdiffuse_ext.py#L6-L25) and links back to this project in the extension UI | [7,113 stars / 558 forks](https://github.com/vladmandic/sdnext) |
+
+## Selected AI systems work
+
+- Diffusion and video generation: Diffusers integrations, LTX video support, transparent image generation, and model execution workflows.
+- LLM/VLM quantization: GGUF and AWQ releases for image-text models such as [Vintern-3B](https://huggingface.co/rootonchair/Vintern-3B-beta-GGUF), [Vintern-1B](https://huggingface.co/rootonchair/Vintern-1B-v3_5-GGUF-ext), [EraX-VL-7B](https://huggingface.co/rootonchair/EraX-VL-7B-V1.0-GGUF), and [InternVL2.5-4B](https://huggingface.co/rootonchair/InternVL2_5-4B-AWQ).
+- Model compression and serving: quantized/GGUF model artifacts, runtime tooling, and diffusion model compression experiments.
+- Developer infrastructure: practical patches across Hugging Face Diffusers/Transformers and related open-source ML projects.
+
+## Current focus
+
+I am mostly interested in making generative models easier to run, adapt, compress, and serve in real systems.
+
+<sub>Numbers last checked on 2026-06-01. Adoption metrics use 100+ units; merged PR counts are included as accepted upstream work.</sub>
